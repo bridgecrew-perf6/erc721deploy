@@ -13,9 +13,9 @@ module.exports = {
     rinkeby: {
       url: API_URL_TEST,
       accounts: [`0x${PRIVATE_KEY_TEST}`],
-      gas: 2100000,
-      gasPrice: 8000000000,
-      saveDeployments: true,
+      // gas: 2100000,
+      // gasPrice: 8000000000,
+      // saveDeployments: true,
     },
     //  ropsten: {
     //    url: API_URL,

@@ -48,7 +48,11 @@ app.post("/mint", async (req, res) => {
       req.body.metadatauri
     );
     console.log(mintresult);
-    res.send({ body: mintresult.address, message: "success" });
+    res.send({
+      body: mintresult,
+      address: mintresult.address,
+      message: "success",
+    });
     // process.exit(0);
   } catch (e) {
     console.log(e);
