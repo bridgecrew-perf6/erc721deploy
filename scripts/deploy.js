@@ -47,9 +47,9 @@ app.post("/mint", async (req, res) => {
       req.body.owner,
       req.body.metadatauri
     );
-    console.log(mintresult);
+    // console.log(mintresult);
     res.send({
-      body: mintresult,
+      // body: mintresult,
       address: mintresult.address,
       message: "success",
     });
